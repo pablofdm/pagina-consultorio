@@ -1,0 +1,327 @@
+/*CABECALHO----------*/
+body {
+	margin-top: 0;
+	width: 95%;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-size: cover;
+	background-color: black;
+}
+
+.cabecalho {
+	width: 100%;
+	background-color: black;
+	border-style: white;
+	border-color: black;
+	font-size: 22px;
+	display: inline-block;
+}
+
+
+
+
+ 
+.fonteexterna{
+	color: white;
+	border: 0.5px solid white;
+	border-radius: 4px;
+	display: inline-block;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 10px;
+	text-decoration: none;
+	margin-top: 30px;
+	justify-content: center;
+	align-content: center;
+	position: absolute;
+    top: 2.5%;
+    left: 47.5%;
+    margin-right: -47.5%;
+    transform: translate(-50%, -50%) 
+}
+.bt {
+	color: white;
+	border: 1px solid white;
+	border-radius: 4px;
+	display: inline-block;
+	cursor: pointer;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 17px;
+	padding: 6px;
+	text-decoration: none;
+	margin-top: 30px;
+	margin-left: 15px;
+}
+
+.bt:active {
+	position: relative;
+	top: 2px;
+}
+
+.bt:hover {
+	background: white;
+	color: black;
+}
+
+ul {
+	list-style: none;
+	display: inline-block;
+}
+
+li {
+	float: left;
+	display: inline-block;
+}
+
+.sidemnu {
+	float: right;
+	display: inline-block;
+}
+.socialicons {
+	width: 50px;
+	float: right;
+	padding: 5px;
+	margin-right: 15px;
+	/*PAVILHAO DE iMAGENS 1*/
+}
+
+img:hover {
+	opacity: 0.3;
+
+}
+
+#img2{
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+div.pavilhao1 {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+	height: 50%;
+	
+}
+
+/* TEXTO DENTRO DO PAVILHAO */
+
+
+h2{
+
+	position: relative;
+	left: 80px;
+	color: white;
+	opacity: 0.7;	
+}
+
+
+
+.spaceText{
+	
+	max-width: 240px;
+	word-wrap: break-word;
+	position: relative;
+	left: 75px;
+	font-size: 30px;
+	color: white;
+	opacity: 0.7;
+	
+}
+
+
+
+#textEsq{
+		position: absolute;
+		top: 25%;
+		font-color: black;
+
+}
+
+#ladoEsq:hover{
+
+		-webkit-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        transform: scale(0.95);
+        font-color: white;
+        border: 1px solid white;
+		width: 18%;
+		padding: 1rem;
+		-webkit-transition: 0.3s ease-in;
+		-moz-transition: 0.3s ease-in;
+		-o-transition: 0.3s ease-in;
+		transition: 0.3s ease-in;
+}
+
+
+
+#textMeio{
+	  position: absolute;
+	  top: 25%;
+	  color: black;
+     	
+     
+   
+}
+
+#meio:hover{
+
+		-webkit-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        transform: scale(0.95);
+        border: 1px solid white;
+		width: 20%;
+		padding: 1rem;
+		-webkit-transition: 0.3s ease-in;
+		-moz-transition: 0.3s ease-in;
+		-o-transition: 0.3s ease-in;
+		transition: 0.3s ease-in;
+}
+
+
+
+#textDir{
+	  position: absolute;
+	  top: 25%;
+	  color: black;
+	  
+}
+
+#ladoDir:hover{
+		-webkit-transition: 0.3s ease-in;
+		-moz-transition: 0.3s ease-in;
+		-o-transition: 0.3s ease-in;
+		transition: 0.3s ease-in;
+		-webkit-transform: scale(0.95);
+	    -ms-transform: scale(0.95);
+	    transform: scale(0.95);
+	    border: 1px solid white;
+		width: 20%;
+		padding: 1rem;
+        
+        }
+
+
+
+/*CENTRO DO SITE*/
+
+
+
+.pavilhao2 {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+}
+
+.pavilhao3 {
+	border: 1px solid white;
+	width: 50%;
+	padding: 1rem;
+}
+
+.pavilhao3:hover {
+	background-color: white;
+	-webkit-transition: 0.5s ease-in;
+	-moz-transition: 0.5s ease-in;
+	-o-transition: 0.5s ease-in;
+	transition: 0.5s ease-in;
+}
+
+.pavilhao3:hover p {
+	color: black;
+	-webkit-transition: 0.3s ease-in;
+	-moz-transition: 0.3s ease-in;
+	-o-transition: 0.3s ease-in;
+	transition: 0.3s ease-in;
+	-webkit-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        transform: scale(0.95);
+}
+
+h1 {
+	color: white;
+	font-family: Verdana;
+
+}
+
+p {
+	color: white;
+	font-size: 20px;
+
+}
+
+.container{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.video{
+	width: 50%;
+	border: 1px solid white;
+	width: 50%;
+	padding: 1rem;
+	
+}
+
+.controle{
+	/* position: absolute; */
+	top: 0;	
+	width: 100%;
+	height: 100%;
+	
+}
+
+
+/*RODAPÉ DA PÁGINA */
+
+
+.rodape{
+
+	width: 98%;
+	height: 500px;
+	position: absolute;
+    background: white;
+
+
+}
+
+.rorodape{
+	position: relative;
+	width: 98%;
+    left: 1%; 
+    right: 1%;
+    bottom: 1%;
+	background: black;
+	padding-bottom: 60px;
+}
+
+
+
+#logoNome{
+	display: flex;
+    text-align: center
+    color: white;
+	font-family: Verdana;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 5px;
+
+}
+
+h3{
+	display: flex;
+    text-align: center;
+    color: white;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 0.5px;
+}
+
+.formulario{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
